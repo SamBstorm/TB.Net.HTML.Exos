@@ -1,0 +1,7 @@
+/* label::after{
+    content: "*";
+} */
+
+/* input:required::before{
+    content:"*";
+} */

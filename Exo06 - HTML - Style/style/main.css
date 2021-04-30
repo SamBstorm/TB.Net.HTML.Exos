@@ -1,0 +1,84 @@
+nav a{
+    text-decoration: none;
+}
+
+nav>ul>li{
+    display: inline-block;
+}
+
+nav div{
+    padding : 5px 20px;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: #e9f4f6;
+}
+nav li:hover ul{
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-variant-caps: small-caps;
+    font-family: 'Holtwood One SC', serif;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+body{
+    background: url("../assets/background.jpg") center center fixed repeat;
+}
+
+header{
+    background-color: #473f8fcc;
+}
+
+section section{
+    float : right;
+    width: 75%;
+}
+
+article figure{
+    width:25%;
+}
+
+article img{
+    width:100%
+}
+
+section aside, article figure
+{
+    float: left;
+}
+
+hr{
+    clear: both;
+    opacity: 0;
+}
+
+aside, article{
+    background-color: #473f8f33;
+}
+
+aside>div{
+    background-color: #e9f4f633;
+}
+
+footer{
+    background-color: #252335;
+}
+
+header, footer, footer a{
+    color:#e9f4f6;
+}
+
+nav{
+    background-color: #e9f4f6;
+}
+
+article>figure{
+    background-color: #252335;
+    color: #e9f4f6;
+}

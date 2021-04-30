@@ -1,0 +1,25 @@
+#accordeon{
+    border : 1px solid black;
+    width : 512px;
+}
+
+.subject{
+    border-bottom:3px double darkblue;
+}
+
+#accordeon .subject:last-child{
+    border-bottom: none;
+}
+
+.subject p{
+    /* display:none; */
+    max-height : 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in 0s;
+}
+
+.subject:hover p{
+    /* display: block; */
+    max-height: 1024px;
+    overflow: auto;    
+}
